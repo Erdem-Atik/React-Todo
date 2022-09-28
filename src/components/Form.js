@@ -6,7 +6,7 @@ export default function Form(props) {
     //event handling
     console.log("test");
     e.preventDefault();
-    props.addTask(name);
+    if (name) props.addTask(name);
     setName("");
   }
   function handleChange(e) {
