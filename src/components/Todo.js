@@ -25,5 +25,3 @@ export default function Todo(props) {
     </li>
   );
 }
-
-// git test -erase later 2
