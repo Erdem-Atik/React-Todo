@@ -6,11 +6,11 @@ export default function Form(props) {
     //event handling
     console.log("test");
     e.preventDefault();
-    if (name) props.addTask(name);
+    if (name) props.addTask(name); // added by me in order to solve the empty entry problem
     setName("");
   }
   function handleChange(e) {
-    setName(e.target.value);
+    setName(e.target.value); // set the name from user input
   }
 
   return (
